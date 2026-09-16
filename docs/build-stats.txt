@@ -1,0 +1,14 @@
+
+Build Stats:
+  Device: instinct3solar45mm
+  Data:
+    Foreground: 5815 bytes
+  Code:
+    Foreground: 13291 bytes
+  Extended Code:
+    Page Size: 4096 bytes
+    Number of Pages: 0
+    Total Size: 0 bytes
+  Total PRG Size: 36220 bytes
+  Build Time: 2.866 seconds
+BUILD SUCCESSFUL

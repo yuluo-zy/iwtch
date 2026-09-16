@@ -1,0 +1,17 @@
+<properties>
+<property id="theme" type="number">0</property>
+<property id="slotCount" type="number">6</property>
+<property id="bubble" type="number">7</property>
+<property id="seconds" type="number">1</property>
+<property id="dataInterval" type="number">60</property>
+<property id="weatherInterval" type="number">15</property>
+<property id="progress" type="number">1</property>
+<property id="slot1" type="number">1</property>
+<property id="slot2" type="number">2</property>
+<property id="slot3" type="number">3</property>
+<property id="slot4" type="number">4</property>
+<property id="slot5" type="number">5</property>
+<property id="slot6" type="number">6</property>
+<property id="slot7" type="number">9</property>
+<property id="slot8" type="number">8</property>
+</properties>

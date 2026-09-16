@@ -1,0 +1,9 @@
+bin/
+.local/
+__pycache__/
+*.pyc
+*.iq
+*.prg
+*.debug.xml
+*.mir
+*.settings.json

@@ -1,0 +1,14 @@
+PASS
+
+==============================================================================
+RESULTS
+Test:                               Status:
+formattingAndWeather                PASS
+settingsAndDemand                   PASS
+sensorScheduling                    PASS
+renderAllLayouts                    PASS
+deviceSettingsMenu                  PASS
+secondsAndRedrawBudget              PASS
+Ran 6 tests
+
+PASSED (passed=6, failed=0, errors=0)

@@ -1,0 +1,21 @@
+[
+  {"id":0,"key":"NONE","label":"留空","icon":"none","unit":""},
+  {"id":1,"key":"STEPS","label":"步数","icon":"steps","unit":""},
+  {"id":2,"key":"BODY","label":"身体电量","icon":"energy","unit":""},
+  {"id":3,"key":"ALTITUDE","label":"海拔（米）","icon":"mountain","unit":"m"},
+  {"id":4,"key":"PRESSURE","label":"环境气压（hPa）","icon":"pressure","unit":""},
+  {"id":5,"key":"CALORIES","label":"总热量（kcal）","icon":"flame","unit":""},
+  {"id":6,"key":"BATTERY","label":"手表电量","icon":"battery","unit":"%"},
+  {"id":7,"key":"HEART","label":"心率（bpm）","icon":"heart","unit":""},
+  {"id":8,"key":"DISTANCE","label":"距离（公里）","icon":"distance","unit":"k"},
+  {"id":9,"key":"STRESS","label":"压力","icon":"stress","unit":""},
+  {"id":10,"key":"OXYGEN","label":"血氧（最近30分钟）","icon":"oxygen","unit":"%"},
+  {"id":11,"key":"TEMPERATURE","label":"天气温度（℃）","icon":"thermometer","unit":"°"},
+  {"id":12,"key":"HUMIDITY","label":"相对湿度","icon":"droplet","unit":"%"},
+  {"id":13,"key":"RAIN","label":"降水概率","icon":"umbrella","unit":"%"},
+  {"id":14,"key":"WIND","label":"风速（米/秒）","icon":"wind","unit":""},
+  {"id":15,"key":"NOTIFICATIONS","label":"通知数量","icon":"message","unit":""},
+  {"id":16,"key":"ACTIVE","label":"今日强度分钟","icon":"stopwatch","unit":""},
+  {"id":17,"key":"SUNRISE","label":"日出","icon":"sunrise","unit":""},
+  {"id":18,"key":"SUNSET","label":"日落","icon":"sunset","unit":""}
+]

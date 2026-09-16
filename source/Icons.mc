@@ -1,0 +1,45 @@
+// Generated monochrome glyph codes; no runtime rasterization.
+module Icons {
+    const NONE = "";
+    const STEPS = "";
+    const ENERGY = "";
+    const MOUNTAIN = "";
+    const PRESSURE = "";
+    const FLAME = "";
+    const BATTERY = "";
+    const HEART = "";
+    const DISTANCE = "";
+    const STRESS = "";
+    const OXYGEN = "";
+    const THERMOMETER = "";
+    const DROPLET = "";
+    const UMBRELLA = "";
+    const WIND = "";
+    const MESSAGE = "";
+    const STOPWATCH = "";
+    const SUNRISE = "";
+    const SUNSET = "";
+    const BLUETOOTH = "";
+    const ALARM = "";
+    const PHONE = "";
+    const MOON = "";
+    const SUN = "";
+    const CLOUD = "";
+    const PARTLY = "";
+    const RAIN = "";
+    const SNOW = "";
+    const STORM = "";
+    const FOG = "";
+    const SLEET = "";
+    const HAIL = "";
+    const UNKNOWN = "";
+    const WIND0 = "";
+    const WIND1 = "";
+    const WIND2 = "";
+    const WIND3 = "";
+    const WIND4 = "";
+    const WIND5 = "";
+    const WIND6 = "";
+    const WIND7 = "";
+    const DIRECTIONS = ["", "", "", "", "", "", "", ""];
+}
