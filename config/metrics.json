@@ -9,7 +9,7 @@
   {"id":7,"key":"HEART","label":"心率（bpm）","icon":"heart","unit":""},
   {"id":8,"key":"DISTANCE","label":"距离（公里）","icon":"distance","unit":"k"},
   {"id":9,"key":"STRESS","label":"压力","icon":"stress","unit":""},
-  {"id":10,"key":"OXYGEN","label":"血氧（最近30分钟）","icon":"oxygen","unit":"%"},
+  {"id":10,"key":"OXYGEN","label":"血氧（最近3分钟）","icon":"oxygen","unit":"%"},
   {"id":11,"key":"TEMPERATURE","label":"天气温度（℃）","icon":"thermometer","unit":"°"},
   {"id":12,"key":"HUMIDITY","label":"相对湿度","icon":"droplet","unit":"%"},
   {"id":13,"key":"RAIN","label":"降水概率","icon":"umbrella","unit":"%"},

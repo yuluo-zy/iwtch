@@ -21,7 +21,7 @@
 <string id="bubble_7">心率（bpm）</string>
 <string id="bubble_8">距离（公里）</string>
 <string id="bubble_9">压力</string>
-<string id="bubble_10">血氧（最近30分钟）</string>
+<string id="bubble_10">血氧（最近3分钟）</string>
 <string id="bubble_11">天气温度（℃）</string>
 <string id="bubble_12">相对湿度</string>
 <string id="bubble_13">降水概率</string>
@@ -53,7 +53,7 @@
 <string id="slot1_7">心率（bpm）</string>
 <string id="slot1_8">距离（公里）</string>
 <string id="slot1_9">压力</string>
-<string id="slot1_10">血氧（最近30分钟）</string>
+<string id="slot1_10">血氧（最近3分钟）</string>
 <string id="slot1_11">天气温度（℃）</string>
 <string id="slot1_12">相对湿度</string>
 <string id="slot1_13">降水概率</string>
@@ -73,7 +73,7 @@
 <string id="slot2_7">心率（bpm）</string>
 <string id="slot2_8">距离（公里）</string>
 <string id="slot2_9">压力</string>
-<string id="slot2_10">血氧（最近30分钟）</string>
+<string id="slot2_10">血氧（最近3分钟）</string>
 <string id="slot2_11">天气温度（℃）</string>
 <string id="slot2_12">相对湿度</string>
 <string id="slot2_13">降水概率</string>
@@ -93,7 +93,7 @@
 <string id="slot3_7">心率（bpm）</string>
 <string id="slot3_8">距离（公里）</string>
 <string id="slot3_9">压力</string>
-<string id="slot3_10">血氧（最近30分钟）</string>
+<string id="slot3_10">血氧（最近3分钟）</string>
 <string id="slot3_11">天气温度（℃）</string>
 <string id="slot3_12">相对湿度</string>
 <string id="slot3_13">降水概率</string>
@@ -113,7 +113,7 @@
 <string id="slot4_7">心率（bpm）</string>
 <string id="slot4_8">距离（公里）</string>
 <string id="slot4_9">压力</string>
-<string id="slot4_10">血氧（最近30分钟）</string>
+<string id="slot4_10">血氧（最近3分钟）</string>
 <string id="slot4_11">天气温度（℃）</string>
 <string id="slot4_12">相对湿度</string>
 <string id="slot4_13">降水概率</string>
@@ -133,7 +133,7 @@
 <string id="slot5_7">心率（bpm）</string>
 <string id="slot5_8">距离（公里）</string>
 <string id="slot5_9">压力</string>
-<string id="slot5_10">血氧（最近30分钟）</string>
+<string id="slot5_10">血氧（最近3分钟）</string>
 <string id="slot5_11">天气温度（℃）</string>
 <string id="slot5_12">相对湿度</string>
 <string id="slot5_13">降水概率</string>
@@ -153,7 +153,7 @@
 <string id="slot6_7">心率（bpm）</string>
 <string id="slot6_8">距离（公里）</string>
 <string id="slot6_9">压力</string>
-<string id="slot6_10">血氧（最近30分钟）</string>
+<string id="slot6_10">血氧（最近3分钟）</string>
 <string id="slot6_11">天气温度（℃）</string>
 <string id="slot6_12">相对湿度</string>
 <string id="slot6_13">降水概率</string>
@@ -173,7 +173,7 @@
 <string id="slot7_7">心率（bpm）</string>
 <string id="slot7_8">距离（公里）</string>
 <string id="slot7_9">压力</string>
-<string id="slot7_10">血氧（最近30分钟）</string>
+<string id="slot7_10">血氧（最近3分钟）</string>
 <string id="slot7_11">天气温度（℃）</string>
 <string id="slot7_12">相对湿度</string>
 <string id="slot7_13">降水概率</string>
@@ -193,7 +193,7 @@
 <string id="slot8_7">心率（bpm）</string>
 <string id="slot8_8">距离（公里）</string>
 <string id="slot8_9">压力</string>
-<string id="slot8_10">血氧（最近30分钟）</string>
+<string id="slot8_10">血氧（最近3分钟）</string>
 <string id="slot8_11">天气温度（℃）</string>
 <string id="slot8_12">相对湿度</string>
 <string id="slot8_13">降水概率</string>

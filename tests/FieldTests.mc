@@ -62,6 +62,10 @@ function sensorScheduling(logger) {
     m.refreshLive(c,now+61); Test.assertEqual(m.sampleReads,2);
     m.refreshLive(c,now-3600); Test.assertEqual(m.weatherReads,2);
     Test.assert(m.due(100,200,60));
+    Test.assertEqual(m.oxygenAge(null),180);
+    Test.assertEqual(m.oxygenAge(119),180);
+    Test.assertEqual(m.oxygenAge(120),60);
+    Test.assertEqual(m.oxygenAge(180),60);
     return true;
 }
 

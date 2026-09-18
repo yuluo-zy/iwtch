@@ -108,9 +108,12 @@ class FieldView extends WatchUi.WatchFace {
         if(dc.getTextWidthInPixels(bubbleText,font)>48) { font=tinyFont; }
         dc.drawText(144,29,font,bubbleText,Graphics.TEXT_JUSTIFY_CENTER);
         text(dc,9,73,timeFont,hour.format("%02d")+":"+minute.format("%02d"));
-        if(model.connected) { icon(dc,137,79,Icons.BLUETOOTH); icon(dc,137,92,Icons.PHONE); }
+        if(model.connected) { icon(dc,137,79,Icons.BLUETOOTH); }
         if(model.alarms) { icon(dc,152,79,Icons.ALARM); }
         if(model.notifications>0) {
+            // Public API has no missed-call count; light the phone icon whenever
+            // there are active notifications (a missed call is the typical case).
+            icon(dc,137,92,Icons.PHONE);
             icon(dc,152,92,Icons.MESSAGE);
             text(dc,166,94,tinyFont,model.notifications>9 ? "+" : model.notifications.toString());
         }

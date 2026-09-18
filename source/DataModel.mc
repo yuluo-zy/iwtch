@@ -33,6 +33,12 @@ class DataModel {
     var sampleReads = 0;
     var weatherReads = 0;
     const DAYS = ["日", "一", "二", "三", "四", "五", "六"];
+    // Blood-oxygen freshness: 3 minutes normally, 1 minute during vigorous
+    // exercise (heart rate >= VIGOROUS_HR in the last VIGOROUS_HR_AGE seconds).
+    const OXYGEN_AGE = 180;
+    const OXYGEN_AGE_VIGOROUS = 60;
+    const VIGOROUS_HR = 120;
+    const VIGOROUS_HR_AGE = 120;
 
     function initialize() {
         values = new[Metrics.COUNT]; texts = new[Metrics.COUNT];
@@ -47,6 +53,9 @@ class DataModel {
         var sample = iterator.next();
         if (sample == null || !Format.fresh(now, sample.when, maxAge)) { return null; }
         return sample.data;
+    }
+    function oxygenAge(hr) {
+        return hr != null && hr >= VIGOROUS_HR ? OXYGEN_AGE_VIGOROUS : OXYGEN_AGE;
     }
     (:live)
     function refresh(config, now) { return refreshLive(config, now); }
@@ -132,7 +141,10 @@ class DataModel {
                 var stress=latest(SensorHistory.getStressHistory(options),now,900);
                 values[Metrics.STRESS]=stress != null && stress >= 0 ? stress : null;
             }
-            if (need[Metrics.OXYGEN]) { values[Metrics.OXYGEN]=latest(SensorHistory.getOxygenSaturationHistory(options),now,1800); }
+            if (need[Metrics.OXYGEN]) {
+                var hr=latest(SensorHistory.getHeartRateHistory(options),now,VIGOROUS_HR_AGE);
+                values[Metrics.OXYGEN]=latest(SensorHistory.getOxygenSaturationHistory(options),now,oxygenAge(hr));
+            }
         }
         if (changed) { formatValues(); }
         return changed;
